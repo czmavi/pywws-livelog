@@ -1,4 +1,4 @@
-# Pywws docker image
+# Pywws docker image
 
 Provides a [Docker image](https://hub.docker.com/r/czmavi/pywws-livelog) with [pywws](https://github.com/jim-easterbrook/pywws)
 
