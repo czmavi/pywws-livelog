@@ -1,4 +1,4 @@
-ARG VERSION=3.12.5
+ARG VERSION=3.17.1
 FROM alpine:$VERSION
 ENV RESET=5
 
@@ -23,7 +23,7 @@ RUN apk add --no-cache python3 \
     && update-ca-certificates
 
 RUN pip3 install --upgrade pip
-RUN pip3 install \
+RUN pip3 install --use-pep517 \
     libusb1 \
     tzlocal \
     pycrypto \
